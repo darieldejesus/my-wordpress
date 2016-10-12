@@ -26,7 +26,7 @@ if ( ! function_exists( 'google_fonts_url' ) ) {
  *
  * @since Platano Blog 0.0.1
  */
-function platanoblog_styles() {
+function load_styles() {
 	// Add Google fonts.
 	wp_enqueue_style( 'google_fonts', google_fonts_url() );
 
@@ -62,7 +62,7 @@ function platanoblog_styles() {
  *
  * @since Platano Blog 0.0.1
  */
-function platanoblog_scripts() {
+function load_scripts() {
 	// Modernizr JS
 	wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/js/vendor/modernizr-2.8.3.min.js' );
 	
@@ -92,10 +92,17 @@ function platanoblog_scripts() {
 /**
 * This function call `platanoblog_styles` and `platanoblog_scripts`.
 */
-function platanoblog_assets_queue() {
+function load_assets() {
 	// Enqueues CSS files.
-	platanoblog_styles();
+	load_styles();
 	// Enqueues JS files.
-	platanoblog_scripts();
+	load_scripts();
 }
-add_action( 'wp_enqueue_scripts', 'platanoblog_assets_queue' );
+add_action( 'wp_enqueue_scripts', 'load_assets' );
+
+/**
+ * Function which allow me load a component.
+ */
+function get_template_component( $component ) {
+	return get_template_part( 'components/' . $component );
+}
