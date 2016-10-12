@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Home 1</title>
-        <meta name="description" content="">
+        <title><?php echo get_bloginfo( 'name' ); ?></title>
+        <meta name="description" content="<?php echo get_bloginfo( 'description' ); ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- favicon -->
@@ -56,7 +56,7 @@
                     <div class="row">
                         <div class="col-md-3">
                             <div class="logo">
-                                <a href="index.html"><img src="https://devitems.com/tf/blogging-preview/img/logo/logo.png" alt="Logo" /></a>
+                                <a href="<?php echo bloginfo( 'wpurl' ); ?>"><img src="https://devitems.com/tf/blogging-preview/img/logo/logo.png" alt="Logo" /></a>
                             </div>
                         </div>
                         <div class="col-md-9">
