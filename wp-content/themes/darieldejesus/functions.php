@@ -50,8 +50,9 @@ function load_styles() {
 	// Main
 	wp_enqueue_style( 'main', get_template_directory_uri() . '/css/main.css' );
 
-	// Default style
+	// Default/Custom style
 	wp_enqueue_style( 'style', get_stylesheet_uri() );
+	wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/css/custom-style.css' );
 
 	// Responsive
 	wp_enqueue_style( 'responsive', get_template_directory_uri() . '/css/responsive.css' );	

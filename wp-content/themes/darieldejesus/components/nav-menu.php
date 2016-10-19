@@ -9,9 +9,8 @@
             <div class="main-menu">
                 <nav>
                   <ul class="main-nav navbar-right">
-                    <li><a href="#">Articles</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/whoiam">About</a></li>
+                    <li><a href="/contactme">Contact</a></li>
                   </ul>
                 </nav>
             </div><!-- /.main-menu -->
@@ -25,7 +24,6 @@
             <div class="col-md-12">
                 <nav id="dropdown">
                     <ul>
-                        <li><a href="#">Articles</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>

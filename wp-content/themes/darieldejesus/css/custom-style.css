@@ -1,0 +1,14 @@
+.single-blog-details {
+    padding: 0px 20px 0;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    color: #000;
+    font-family: "PT Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+#pagination-container {
+	padding-bottom: 30px;
+}
