@@ -10,57 +10,11 @@
                         <div class="single-blog-details">
                             <h1 class="post-title">Hello!, I'm Dariel</h1>
                             <div class="post-long-desc">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                                fugiat nulla pariatur.</p>
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-                                desrunt mollit anim id est laborum. Sed ut per spiciatis unde omnis iste natus 
-                                error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque 
-                                ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt 
-                                explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut 
-                                fugit.</p>
-                                <p>sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-                                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, 
-                                adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore 
-                                magnam aliquam quaerat voluptatem.</p>
-                                <blockquote>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                                    quis nostrud exercitation ulla mco laboris nisi ut aliquip ex ea commodo consequat. 
-                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                                    fugiat nulla pariatur.</p>
-                                </blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                                pariatur.</p>
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-                                desrunt mollit anim id est laborum. Sed ut per spiciatis unde omnis iste natus 
-                                error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque 
-                                ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt 
-                                explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut 
-                                fugit.</p>
-                                <p>sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-                                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, 
-                                adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore 
-                                magnam aliquam quaerat voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing 
-                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                                consequat.</p>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                                culpa qui officia desrunt mollit anim id est laborum. Sed ut per spiciatis unde 
-                                omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem 
-                                aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae 
-                                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur 
-                                aut odit aut fugit.</p>
-                                <p>sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-                                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, 
-                                adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore 
-                                magnam aliquam quaerat voluptatem.</p>
+                                <p>I started when I was 14 years old. My first website was a simple login page on Dreamweaver and PHP and when it worked I was like "It's working but I have not idea how". After that, I spent my the rest of my adolescence learning and making websites like "F1C-utilidades" which was a website to provide tools for a video game and "Arterro" which was my firt commercial website I created for a furniture store.</p>
+                                <p>In 2011, I started to work as a software developer in a local company and later, in early 2013 I started to work in an US company, making websites and migration platforms for international customers.</p>
+                                <p>After several years, I created this blog for other self-taught developers like myself. I created it because I like to practice and teach what I learn, focusing on the practice more than the theory.</p>
+                                <p>I usually spend my time listening to 80s Pop Rock, taking pictures with my Canon t2i and lerning new things.</p>
+                                <p>If you want to contact me, feel free to do it <a href="https://www.instagram.com/de.jesus.dariel/" target="_blank">Instagram</a>, <a href="https://github.com/darieldejesus" target="_blank">GitHub</a>, <a href="/contactme">Contact Me</a>.</p>
                             </div>
                         </div><!-- /.single-blog-details -->
                     </div>
