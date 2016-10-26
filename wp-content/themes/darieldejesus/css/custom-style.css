@@ -1,14 +1,24 @@
-.single-blog-details {
-    padding: 0px 20px 0;
-}
-
 body {
     -webkit-font-smoothing: antialiased;
-    color: #000;
+    color: #666;
     font-family: "PT Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 #pagination-container {
 	padding-bottom: 30px;
+}
+
+.footer-area p.copyright-text {
+	font-size: 10px;
+}
+
+
+/* Contact form */
+.contact-form-area {
+	margin-top: 70px;
+	float: none;
+}
+.contact-form-area .input-fields {
+	margin:0 0 13px;
 }

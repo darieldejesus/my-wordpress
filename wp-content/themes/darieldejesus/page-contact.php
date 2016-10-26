@@ -17,23 +17,26 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="contact-img"></div>
-                        <p class="contact-text">Do you like what I am doing? Or, do you want to provide any kind of feedback? No matter the reason if you want to contact me, feel free to do it. It is my pleasure to receive your emotions.</p>
+                        <p class="contact-text">Do you like what I am doing?<br>
+                        Or do you have any kind of suggestion or feedback?<br>
+                        Feel free to let me know.</p>
                     </div>
                 </div>
-                <div class="row center">
-                    <div class="col-md-6 col-md-offset-0 col-sm-12">
-                        <div class="contact-form-area">
+                <div class="row">
+                    <div class="col-sm-12 clearfix">
+                        <div class="contact-form-area center-block col-sm-12 col-md-8">
                             <form action="#" method="post">
-                                <div class="input-fields fix">
-                                    <div class="single-field">
-                                        <input type="text" placeholder="Name" class="name" />
-                                    </div>
-                                    <div class="single-field">
-                                        <input type="text" placeholder="Email" class="email" />
-                                    </div>
+                                <div class="form-group">
+                                    <label for="name">What's your name?</label>
+                                    <input type="email" class="form-control" id="name" placeholder="Name">
                                 </div>
-                                <div class="message-field">
-                                    <textarea placeholder="Message" ></textarea>
+                                <div class="form-group">
+                                    <label for="email-address">What's your email address?</label>
+                                    <input type="email" class="form-control" name="email-address" id="email-address" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Message</label>
+                                    <textarea class="form-control" rows="6"></textarea>
                                 </div>
                                 <div class="submit-btn clear">
                                     <button type="submit">send message</button>

@@ -33,7 +33,6 @@ Tags: bootstrap, dariel de jesus, blog
 		10.3 blog-column-2
 		10.4 blog-fullwidth
 	11. contact-us page
-		11.1 contact-form-area
 	12. single-blog page
 		12.1 single-blog-details
 		12.2 single-blog-bottom
@@ -63,7 +62,7 @@ a:active, a:hover {
 }
 p {
   font-weight:300;
-  margin:0 0 15px;
+  margin:0 0 25px;
 }
 h1, h2, h3, h4, h5, h6 {
   color:#333;
@@ -407,7 +406,7 @@ textarea:focus::-moz-placeholder{color:transparent;}
 	padding: 15px 0 17px;
 }
 .header-bottom.stick .logo{
-	width:150px;
+	width:115px;
 	height:34px;
 	padding:11px 0;
 }
@@ -933,7 +932,7 @@ textarea:focus::-moz-placeholder{color:transparent;}
 /*  10.1 blog-content-area
 /*========================================*/
 .heading-area{
-	background:url(img/blog/blog-bg.jpg) no-repeat scroll 50% 15%;
+	background:url(img/background.jpg) no-repeat scroll 50% 15%;
 	padding:55px 0;
 	position:relative;
 }
@@ -942,7 +941,7 @@ textarea:focus::-moz-placeholder{color:transparent;}
 	position:absolute;
 	width:100%;
 	height:100%;
-	background:#ffae00;
+	background:rgba(255, 174, 0, 0.5);
 	top:0;
 	left:0;
 }
@@ -1009,19 +1008,9 @@ textarea:focus::-moz-placeholder{color:transparent;}
 .contact-img{
 	margin:70px 0 60px;
 }
-/*----------------------------------------*/
-/*  11.1 contact-form-area
-/*----------------------------------------*/
-.contact-form-area{
-	margin:70px 0 0;
-	padding-left:150px;
-}
-.contact-form-area .input-fields{
-	margin:0 0 13px;
-}
+
 .single-field input[type="text"]{
 	border:1px solid #cccccc;
-	width:200px;
 	height:32px;
 	float:left;
 	outline:0;
@@ -1035,7 +1024,6 @@ textarea:focus::-moz-placeholder{color:transparent;}
 .single-field input[type="text"].email{float:right;}
 .message-field textarea{
 	border:1px solid #ccc;
-	width:420px;
 	height:100px;
 	float:right;
 	outline:0;
@@ -1072,7 +1060,7 @@ textarea:focus::-moz-placeholder{color:transparent;}
 /*  12. single-blog page
 /*========================================*/
 .single-blog-img{
-	background:url(img/single-blog/1.jpg) no-repeat scroll center top;
+	background:url(img/darieldejesus.jpg) no-repeat scroll center top;
 	background-size:cover;
 	padding:300px 0;
 	position:relative;
